@@ -60,6 +60,7 @@ And Good Job you got your flag ! ;)
 
 Valuable Ressources for format string Vulnrability : 
 https://cs155.stanford.edu/papers/formatstring-1.2.pdf
+
 https://www.youtube.com/watch?v=0-ulL3Y0MS8 (Bear with his russian accent he's really good)
 
 
