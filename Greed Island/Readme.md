@@ -1,3 +1,12 @@
+#Securinets ISI Qualifications 2025
+Challenge Name : Greed Island
+
+Description : **Can you outrun all the other pirates and reach the island first?**
+
+The treasure map is set, the island is within reach, but only the most cunning pirate will claim the prize! ⚔️
+Greed may slow you down, while sacrifice may lead to great rewards. 🏝️💰
+
+**Solution : **
 This challenge consists of two main vulnerabilities: integer overflow and ret2win (return-to-win). We will explain both concepts and how they are exploited to gain control over the program.
 
 **Understanding Integer Overflow**
