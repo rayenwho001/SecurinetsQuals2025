@@ -9,6 +9,7 @@ You were provided with an executable file to solve locally then solve the challe
 First thing we can do is run our program , and as we can see it's asking for an input so we try to see if it's vulnrable to Buffer Overflow by sending bunch of A's.
 : ![image](https://github.com/user-attachments/assets/d7583050-4033-497f-86d4-874b3b811b31)
 As you can see this input isn't vulnrable to BoF so we try to check our binary using Ghidra or Cutter . 
+
 ![image](https://github.com/user-attachments/assets/cd4d723b-6fdd-4cef-9789-624f1c60cce1)
 We found a function called find_treasure so after seeing its content what we can see : 
       - our input function is called correctly with fgets and limited number of bytes
@@ -16,8 +17,11 @@ We found a function called find_treasure so after seeing its content what we can
 
 But first what is Format String Vulnrability : it's a mis-use of the print function whenever it's called without any format specifiers. 
 Normally when we call printf function we choose one format specifier for it :
+
 ![image](https://github.com/user-attachments/assets/5a829ca8-bfaf-4565-a9fd-6908a2df0688)
+
 For a string it would be like this :
+
 ![image](https://github.com/user-attachments/assets/4b2c3747-0810-44b0-a811-670a112b8905)
 
 But what will happen if we dont call any format specifier in our printf? 
